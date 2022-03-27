@@ -8,6 +8,6 @@ module.exports = {
     ]
   },
   transformIgnorePatterns: [
-    "/node_modules/(?!(node-fetch|data-uri-to-buffer|fetch-blob|formdata-polyfill)/)"
+    "/node_modules/(?!(node-fetch|data-uri-to-buffer|fetch-blob|formdata-polyfill|@piyoppi/counter-tools-url-whitelist-sitemap)/)"
   ]
 }
