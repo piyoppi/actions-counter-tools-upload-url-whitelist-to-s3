@@ -1,0 +1,24 @@
+name: 'actions-upload-url-whitelist-to-s3'
+description: 'Test'
+
+inputs:
+  sitemap_filename:
+    description: ''
+    required: true
+  sitemap_basepath:
+    description: ''
+    required: true
+  sitemap_baseurl:
+    description: ''
+    required: true
+  s3_bucket_name:
+    description: ''
+    required: true
+  output_urllist_filename:
+    description: ''
+    required: false
+    default: 'urllist'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

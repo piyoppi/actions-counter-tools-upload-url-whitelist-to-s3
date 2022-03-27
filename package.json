@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "jest",
+    "build": "ncc build src/index.js --license licenses.txt"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@aws-sdk/client-s3": "^3.54.1",
+    "@piyoppi/counter-tools-url-whitelist-sitemap": "0.1.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.3",
+    "jest": "^27.5.1",
+    "esbuild": "^0.14.25",
+    "esbuild-jest": "^0.5.0"
+  }
+}
