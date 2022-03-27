@@ -1,5 +1,5 @@
 import { run } from './script.js'
-import core from '@actions/core'
+import * as core from '@actions/core'
 
 const filename = core.getInput('sitemap_filename')
 const sitemapBaseUrl = core.getInput('sitemap_baseurl')
