@@ -3,16 +3,16 @@ description: 'Test'
 
 inputs:
   sitemap_filename:
-    description: ''
+    description: 'Sitemap entry filename'
     required: true
   sitemap_basepath:
-    description: ''
+    description: 'The basepath of sitemap'
     required: true
   sitemap_baseurl:
-    description: ''
+    description: 'The baseurl of sitemap'
     required: true
   s3_bucket_name:
-    description: ''
+    description: 'Target S3 bucket'
     required: true
   output_urllist_filename:
     description: ''
